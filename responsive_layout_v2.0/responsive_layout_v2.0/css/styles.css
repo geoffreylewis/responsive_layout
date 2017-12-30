@@ -1,0 +1,23 @@
+/*=====================
+Global Layout Set-up
+=====================*/
+* {
+     box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #222;
+     background: #f6f7f6;
+}
+
+
+/*============
+Link Styles
+============*/
+a {
+     text-decoration: none;
+}
