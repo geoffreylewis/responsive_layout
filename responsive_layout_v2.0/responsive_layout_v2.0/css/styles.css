@@ -313,13 +313,44 @@ Styles for larger screens
 
 @media screen and (min-width: 1024px) {
 
+     header .container {
+          width: 90%;
+          margin: 0 auto;
+     }
+
+     .main_nav {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: baseline;
+          font-weight: 700;
+          list-style-type: none;
+          padding-top: 6%;
+          margin: 0;
+          color: #464646;
+     }
+
+     .main_nav .large_name {
+          margin-right: 50%;
+     }
+
      .main_nav li {
           font-size: 1rem;
+          background: #f6f7f6;
+          margin: 0;
+          padding: 0;
      }
 
      #home .container {
           width: 90%;
           margin: 0 auto;
+          padding-top: 6%;
+          padding-bottom: 6%;
+     }
+
+     #home img {
+          width: 41%;
+          float: right;
      }
 
      #home p {
