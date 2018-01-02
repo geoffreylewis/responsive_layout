@@ -34,8 +34,8 @@ header {
 }
 
 header .container {
-     margin-left: 5%;
-     margin-right: 5%;
+     width: 90%;
+     margin: 0 auto;
      line-height: 1.5;
 }
 
@@ -74,8 +74,8 @@ main {
 }
 
 #home .container {
-     margin-left: 5%;
-     margin-right: 5%;
+     width: 90%;
+     margin: 0 auto;
      line-height: 1.5;
      padding-top: 15%;
      padding-bottom: 15%;
@@ -99,8 +99,8 @@ main {
 }
 
 #portfolio .container {
-     margin-left: 5%;
-     margin-right: 5%;
+     width: 90%;
+     margin: 0 auto;
      line-height: 1.5;
      padding-top: 7.5%;
      padding-bottom: 7.5%;
@@ -136,8 +136,8 @@ main {
 }
 
 #contact .container {
-     margin-left: 5%;
-     margin-right: 5%;
+     width: 90%;
+     margin: 0 auto;
      line-height: 1.5;
      padding-top: 10%;
      padding-bottom: 10%;
@@ -159,10 +159,10 @@ footer {
 }
 
 footer .container {
-     margin-left: 5%;
-     margin-right: 5%;
+     width: 90%;
+     margin: 0 auto;
      line-height: 1.5;
-     border-top: 1px solid #464646;
+     border-top: 1px solid #a9a8a8;
      padding-top: 25px;
      padding-bottom: 25px;
      color: #464646;
@@ -189,8 +189,8 @@ Styles for larger screens
 @media screen and (min-width: 768px) {
 
      header .container {
-          margin-left: 4%;
-          margin-right: 4%;
+          width: 92%;
+          margin: 0 auto;
      }
 
      .main_nav {
@@ -218,8 +218,8 @@ Styles for larger screens
      }
 
      #home .container {
-          margin-left: 4%;
-          margin-right: 4%;
+          width: 92%;
+          margin: 0 auto;
           padding-top: 8%;
           padding-bottom: 8%;
      }
@@ -250,8 +250,8 @@ Styles for larger screens
      #portfolio .container {
           padding-top: 4%;
           padding-bottom: 4%;
-          margin-left: 4%;
-          margin-right: 4%;
+          width: 92%;
+          margin: 0 auto;
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
@@ -272,8 +272,8 @@ Styles for larger screens
           line-height: 1.5;
           font-size: 1.3rem;
           padding-top: 4%;
-          margin-left: 15%;
-          margin-right: 15%;
+          width: 72%;
+          margin: 0 auto;
      }
 
      #contact .contact_paragraph {
@@ -284,6 +284,11 @@ Styles for larger screens
           padding-top: 1%;
           padding-bottom: 1%;
           margin: 0;
+     }
+
+     footer .container {
+          width: 92%;
+          margin: 0 auto;
      }
 
      .mini_nav_small {
@@ -348,6 +353,7 @@ Styles for larger screens
      #contact .container {
           width: 55%;
           margin: 0 auto;
+          padding-bottom: 8%;
      }
 
      footer .container {
