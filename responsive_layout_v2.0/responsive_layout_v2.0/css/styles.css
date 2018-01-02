@@ -20,7 +20,7 @@ Link Styles
 ============*/
 a {
      text-decoration: none;
-     color: black;
+     color: #464646;
 }
 
 
@@ -34,7 +34,8 @@ header {
 }
 
 header .container {
-     margin: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
      line-height: 1.5;
 }
 
@@ -44,11 +45,14 @@ header .container {
      font-weight: 700;
      list-style-type: none;
      padding: 0;
+     margin: 0;
+     color: #464646;
 }
 
 .main_nav .name {
      background: #f6f7f6;
-     font-size: 2em;
+     font-size: 2rem;
+     margin: 0;
 }
 
 .main_nav li {
@@ -56,6 +60,8 @@ header .container {
      margin-top: 3px;
      margin-bottom: 3px;
      padding: 10px;
+     font-size: 0.9rem;
+     color: #464646;
 }
 
 main {
@@ -63,14 +69,16 @@ main {
 }
 
 #home {
-     padding-top: 20px;
-     padding-bottom: 20px;
+     width: 100%;
      color: grey;
 }
 
 #home .container {
-     margin: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
      line-height: 1.5;
+     padding-top: 40px;
+     padding-bottom: 40px;
 }
 
 #home img {
@@ -78,19 +86,33 @@ main {
 }
 
 #portfolio {
+     width: 100%;
      background: white;
-     padding-top: 20px;
-     padding-bottom: 20px;
      color: grey;
 }
 
 #portfolio h2 {
-     color: black;
+     color: #464646;
+     font-size: 0.9rem;
+     padding-top: 40px;
+     margin: 0 15px;
 }
 
 #portfolio .container {
-     margin: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
      line-height: 1.5;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.project_container {
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.project_container p {
+     margin: 0;
 }
 
 #portfolio img {
@@ -98,22 +120,32 @@ main {
 }
 
 #portfolio h3 {
-     color: black;
+     color: #464646;
 }
 
 #contact {
-     padding-top: 20px;
-     padding-bottom: 20px;
+     width: 100%;
      color: grey;
 }
 
 #contact h2 {
-     color: black;
+     color: #464646;
+     font-size: 0.9rem;
+     padding-top: 40px;
+     margin: 0 15px;
 }
 
 #contact .container {
-     margin: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
      line-height: 1.5;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+
+#contact p {
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
 
 footer {
@@ -122,9 +154,13 @@ footer {
 }
 
 footer .container {
-     margin: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
      line-height: 1.5;
-     border-top: 1px solid grey;
+     border-top: 1px solid #464646;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     color: #464646;
 }
 
 .mini_nav {
@@ -133,4 +169,6 @@ footer .container {
      font-weight: 700;
      list-style-type: none;
      padding: 0;
+     font-size: 0.9rem;
+     margin: 0;
 }
