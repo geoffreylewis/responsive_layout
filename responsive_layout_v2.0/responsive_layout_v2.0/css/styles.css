@@ -49,7 +49,7 @@ header .container {
      color: #464646;
 }
 
-.main_nav .name {
+.main_nav .large_name {
      background: #f6f7f6;
      font-size: 1.7rem;
      margin: 0;
@@ -143,9 +143,14 @@ main {
      padding-bottom: 10%;
 }
 
+#contact .contact_paragraph {
+     padding-bottom: 8%;
+}
+
 #contact p {
-     margin-top: 3.2%;
-     margin-bottom: 3.2%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     margin: 0;
 }
 
 footer {
@@ -163,7 +168,7 @@ footer .container {
      color: #464646;
 }
 
-.mini_nav {
+.mini_nav_small {
      display: flex;
      justify-content: space-between;
      font-weight: 700;
@@ -173,22 +178,31 @@ footer .container {
      margin: 0;
 }
 
+.mini_nav_large {
+     display: none;
+}
+
 
 /*==========================
 Styles for larger screens
 ==========================*/
 @media screen and (min-width: 768px) {
 
+     header .container {
+          margin-left: 4%;
+          margin-right: 4%;
+     }
+
      .main_nav {
           display: block;
           font-weight: 700;
           list-style-type: none;
-          padding-top: 5%;
+          padding-top: 4%;
           margin: 0;
           color: #464646;
      }
 
-     .main_nav .name {
+     .main_nav .large_name {
           display: block;
           padding-bottom: 0;
      }
@@ -236,6 +250,8 @@ Styles for larger screens
      #portfolio .container {
           padding-top: 4%;
           padding-bottom: 4%;
+          margin-left: 4%;
+          margin-right: 4%;
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
@@ -256,6 +272,87 @@ Styles for larger screens
           line-height: 1.5;
           font-size: 1.3rem;
           padding-top: 4%;
+          margin-left: 15%;
+          margin-right: 15%;
+     }
+
+     #contact .contact_paragraph {
+          padding-bottom: 6%;
+     }
+
+     #contact p {
+          padding-top: 1%;
+          padding-bottom: 1%;
+          margin: 0;
+     }
+
+     .mini_nav_small {
+          display: none;
+     }
+
+     .mini_nav_large {
+          display: flex;
+          justify-content: space-between;
+          font-weight: 700;
+          list-style-type: none;
+          padding: 0;
+          font-size: 0.9rem;
+          margin: 0;
+     }
+
+     .small_name {
+          margin-right: 50%;
+     }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+     .main_nav li {
+          font-size: 1rem;
+     }
+
+     #home .container {
+          width: 90%;
+          margin: 0 auto;
+     }
+
+     #home p {
+          width: 55%;
+     }
+
+     #portfolio {
+          width: 95%;
+          margin: 0 auto;
+     }
+
+     #portfolio .container {
+          width: 95%;
+          margin: 0 auto;
+     }
+
+     #portfolio h2 {
+          font-size: 1rem;
+     }
+
+     .project_container {
+          width: 32%;
+          padding-top: 4%;
+          padding-bottom: 4%;
+     }
+
+     #contact h2 {
+          font-size: 1rem;
+     }
+
+     #contact .container {
+          width: 55%;
+          margin: 0 auto;
+     }
+
+     footer .container {
+          width: 90%;
+          margin: 0 auto;
      }
 
 }
