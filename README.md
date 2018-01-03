@@ -2,16 +2,18 @@
 
 ## Software Summary
 
-I customized a web page template (provided by Team Treehouse) with my own images, text, and styling.  It is essentially a hybrid between a professional profile and a personal one.
+I eyed a website mockup at different sizes (provided by Team Treehouse) and programmed it from scratch.  It is programmed as mobile-first, and then there are two media queries that adjust for screen sizes 768px and 1024px so the web page can fit mobiles phones, tablets, and laptops/desktops.
 
 ## Built With
 
 * HTML5
 * CSS3
+* Responsive Design
 
 ## Additional Notes
 
 * All of the code has been successfully run through the W3C HTML/CSS validators; there are no errors.  There is 1 warning for the HTML concerning the lack of a heading for the "home" section, but adding one would not correctly replicate the provided mockup.
+* Occasionally, I notice that the layout at screen size 768px skews to the left or right for no apparent reason.  I have refreshed the page multiple times and tried different browsers when it happens, but it still is off-center; then, five minutes later, it centers itself and appears normally again.  Some random bug, I guess?  
 
 ## Author(s)
 
