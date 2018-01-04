@@ -23,6 +23,11 @@ a {
      color: #464646;
 }
 
+a:hover {
+     color: green;
+     transition: 0.5s;
+}
+
 
 /*===============
 Section Styles
