@@ -8,7 +8,6 @@ I eyed a website mockup at different sizes (provided by Team Treehouse) and prog
 
 * HTML5
 * CSS3
-* Responsive Design
 
 ## Additional Notes
 
