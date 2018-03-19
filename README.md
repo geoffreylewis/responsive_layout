@@ -9,8 +9,10 @@ I eyed a website mockup at different sizes (provided by Team Treehouse) and prog
 * HTML5
 * CSS3
 
-## Additional Notes
+## Version History
 
+**Version 1.0**  
+*1/4/2018*  
 * All of the code has been successfully run through the W3C HTML/CSS validators; there are no errors.  There is 1 warning for the HTML concerning the lack of a heading for the "home" section, but adding one would not correctly mimic the provided mockup.
 * I have made only minor changes to the provided text from the mockup; most of the text is still the same.
 * Occasionally, I notice that the layout at screen size 768px skews to the left or right for no apparent reason.  I have refreshed the page multiple times and tried different browsers when it happens, but it still is off-center; then, five minutes later, it centers itself and appears normally again.  Some random bug, I guess?  
